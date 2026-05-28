@@ -226,8 +226,8 @@ li::marker {
 
 .project-card {
     background-color: #353535;
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 350px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -300,4 +300,32 @@ footer p{
     display: block;
     color: white;
     margin: 0;
+}
+
+.project-card p {
+    margin: 0;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+}
+
+.project-title {
+    color: white;
+    font-size: 1.45rem;
+}
+
+.project-description,
+.tech-stack {
+    color: #CECECE;
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+.project-tech-stack-container {
+    margin-top: auto;
 }
