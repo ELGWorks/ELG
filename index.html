@@ -15,7 +15,7 @@
             <div class="links-container">
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
-                <a href="#work-with-me">Contact</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
         
@@ -31,10 +31,26 @@
                             <p class="intro-greeting">hi, <span class="nickname">emman</span> here.</p>
                         </div>
                         <div class="text-container">
-                            <p class="intro-text">Aspiring website frontend developer from San Fernando, Pampanga, Philippines. I mostly build and learn website development by day and try learning some backend logic at night (or just gaming XD).</p>
+                            <p class="intro-text">Aspiring website developer from San Fernando, Pampanga, Philippines. I mostly build and learn web design and spend my free time exploring backend frameworks.</p>
                         </div>
                         <div class="button-container">
-                            <button class="button-hi">Say hi!</button>
+                            <a href="mailto:emmanuellouisegonzales@gmail.com" class="button-hi">
+                                <svg class="button-send-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round">
+
+                                    <path d="M22 2L11 13"/>
+                                    <path d="M22 2L2 9l9 4 4 9 7-20z"/>
+
+                                </svg>
+
+                                Say hi!
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -62,16 +78,32 @@
                                 </div>
                                 <div>                          
                                     <ul>
-                                        <li>React.js</li> 
-                                        <li>JavaScript ES6+</li>
-                                        <li>TailwindCSS</li>
+                                        <li>MySQL</li> 
+                                        <li>PHP</li>
                                     </ul>
                                 </div>
 
                             </div>
                         </div>
                         <div class="button-container">
-                            <button class="button-hi">Résumé</button>
+                            <a href="./assets/résumé.pdf" target="_blank">
+                                <button class="button-resume">
+                                        <svg class="eye-icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round">
+
+                                            <path d="M1 12S5 5 12 5s11 7 11 7-4 7-11 7S1 12 1 12z"/>
+                                            <circle cx="12" cy="12" r="3"/>
+
+                                        </svg>
+                                    Résumé
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div>
@@ -154,10 +186,47 @@
                 </div>
             </section>
 
-            <section id="work-with-me" class="section-work-with-me">
-                <p class="test">Section Work With Me Starts here</p>
+            <section id="contact" class="section-contact">
+                <div class="contact-container">
+                    <div class="contact-card">
+
+                        <div class="contact-row">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16v16H4z" />
+                                <path d="M4 4l8 8 8-8" />
+                            </svg>
+                            <p class="contact-text">emmanuellouisegonzales@gmail.com</p>
+                        </div>
+
+                        <div class="contact-row">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 2l4 4-2 2c2 4 6 8 10 10l2-2 4 4-3 3c-1 1-3 1-5 0C10 20 4 14 2 8c-1-2-1-4 0-5l4-1z"/>
+                            </svg>
+                            <p class="contact-text">+63 905 4760 746</p>
+                        </div>
+
+                        <div class="contact-row">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                            </svg>
+                            <p class="contact-text">github.com/ELGWorks</p>
+                        </div>
+
+                        <div class="contact-row">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/>
+                                <circle cx="12" cy="9" r="2"/>
+                            </svg>
+                            <p class="contact-text">San Fernando, Pampanga, Philippines</p>
+                        </div>
+
+                    </div>
+                </div>
             </section>
-            
+            <footer>
+                <p>Built and designed by Emmanuel Gonzales.</p>
+                <p>All rights reserved. ©</p>
+            </footer>
         </main>
     </body>
 </html>
