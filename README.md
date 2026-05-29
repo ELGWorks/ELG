@@ -12,10 +12,10 @@
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Site
 
 <p>
-  <a href="https://elgworks.github.io/ELG/ target="_blank">
+  <a href="https://elgworks.github.io/ELG/" target="_blank">
     Visit the site
   </a>
 </p>
