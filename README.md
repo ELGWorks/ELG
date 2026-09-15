@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://elgworks.github.io/ELG/">
-    <img src="assets/screenshot-emman.png" alt="Preview" width="800"/>
+    <img src="assets/screenshot-website.webp" alt="Preview" width="800"/>
   </a>
 </p>
 
