@@ -403,6 +403,18 @@ footer p{
 }
 
 @media (max-width: 768px) {
+    
+    nav {
+        height: 3.5rem;
+    }
+
+    .links-container {
+        gap: 1.2rem;
+    }
+
+    .links-container a {
+        font-size: 1.1rem;
+    }
 
     .project-title {
         color: white;
